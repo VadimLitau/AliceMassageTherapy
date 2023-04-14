@@ -1,0 +1,11 @@
+.massageServices__wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -20rem;
+  padding-top: 19.15rem;
+  width: 100%;
+  color: #e8e6e6;
+  background: rgb(142,102,145);
+  background: linear-gradient(180deg, rgba(142,102,145,1) 0%, rgba(125,84,128,1) 0%, rgba(80,38,84,1) 100%);
+}

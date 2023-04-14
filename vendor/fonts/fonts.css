@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'futuraL';
+  font-weight: 400;
+  src: url(./futura_lt_l.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'futuraH';
+  font-weight: 700;
+  src: url(./futura_lt_h.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'garamond';
+  src: url(./garamond.woff2);
+}
+
+@font-face {
+  font-family: 'playfair';
+  src: url(./playfair.woff2);
+}

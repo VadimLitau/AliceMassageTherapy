@@ -1,0 +1,8 @@
+.services__text{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  width: 1000px;
+}

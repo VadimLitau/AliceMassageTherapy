@@ -1,0 +1,11 @@
+.massageServices__linkWrap{
+  max-width: 217px;
+  padding: 10px 12px;
+  margin-top: 60px;
+  background: #8d0303;
+  margin-bottom: 50px;
+}
+
+.massageServices__linkWrap:hover{
+  background: #000;
+}

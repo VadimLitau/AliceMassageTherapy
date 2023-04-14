@@ -1,0 +1,8 @@
+.header__nav-listLink{
+  color: #303030;
+  text-decoration: none;
+}
+.header__nav-listLink:hover{
+  color: #8E6691;
+}
+

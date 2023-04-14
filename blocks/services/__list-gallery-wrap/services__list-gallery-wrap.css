@@ -1,0 +1,5 @@
+.services__list-gallery-wrap{
+  display: flex;
+  flex-direction: row;
+  margin-top: 33px;
+}

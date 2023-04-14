@@ -1,0 +1,8 @@
+.footer__info-wrap{
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  font-weight: bolder;
+  font-size: 0.88rem;
+  padding-top: 1.4rem;
+}

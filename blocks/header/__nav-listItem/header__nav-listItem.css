@@ -1,0 +1,7 @@
+.header__nav-listItem{
+  padding: 0 15px 0;
+}
+
+.header__nav-listItem:hover ul{
+  visibility: visible;
+}
