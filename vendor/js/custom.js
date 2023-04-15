@@ -7,7 +7,7 @@ $(document).ready(function() {
 	$("a.transition").click(function(event){
 		event.preventDefault();
 		linkLocation = this.href;
-		$("body").fadeOut(1000, redirectPage);		
+		$("body").fadeOut(2000, redirectPage);		
 	});
 		
 	function redirectPage() {
