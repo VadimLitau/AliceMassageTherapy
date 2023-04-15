@@ -19,23 +19,23 @@
     </div>
     <nav class="header__nav">
       <ul class="header__nav-list">
-        <li class="header__nav-listItem"><a href="./index.html" class="header__nav-listLink">Home</a></li>
-        <li class="header__nav-listItem"><a href="#" class="header__nav-listLink">About</a></li>
-        <li class="header__nav-listItem"><a href="#" class="header__nav-listLink">Services</a>
+        <li class="header__nav-listItem"><a href="#" class="header__nav-listLink">Home</a></li>
+        <li class="header__nav-listItem"><a href="#aboudId" class="header__nav-listLink">About</a></li>
+        <li class="header__nav-listItem"><a href="#servicesId" class="header__nav-listLink">Services</a>
           <ul class="header__nav-list header__nav-listDropped">
             <li class="header__nav-listItem header__nav-itemDropped"><a href="./pages/massageServices.html" class="header__nav-listLink">Massage Services</a></li>
             <li class="header__nav-listItem header__nav-itemDropped"><a href="./pages/hotelMassage.html" class="header__nav-listLink">Hotel Massage</a></li>
             <li class="header__nav-listItem header__nav-itemDropped"><a href="./pages/corporativeMotivationMassage.html" class="header__nav-listLink">Corporate Motivation Massage</a></li>
           </ul>
         </li>        
-        <li class="header__nav-listItem"><a href="#" class="header__nav-listLink">Portfolio</a></li>
-        <li class="header__nav-listItem"><a href="#" class="header__nav-listLink">Contact</a></li>
+        <li class="header__nav-listItem"><a href="#galleryId" class="header__nav-listLink">Portfolio</a></li>
+        <li class="header__nav-listItem"><a href="#contactsId" class="header__nav-listLink">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main class="main">
     <section class="main__image"><img src="./images/main__image.jpg" alt="main_image"></section>
-    <section class="services">
+    <section class="services"  id="aboudId">
       <div class="services__text">
         <p class="services__text-first">Chicagoland, IL Massage Services</p>
         <h1 class="services__text-main">Alice's Elite Massage Therapy</h1>
@@ -43,7 +43,7 @@
           we open late! Serving
           downtown
           Chicago, Midway, O&grave; Hare and Suburbs. We serve hotels and residents.</p>
-        <p class="services__text-third">Alice&grave;s Elite Massage Therapy has been offering stress relieving massage
+        <p class="services__text-third"  id="servicesId">Alice&grave;s Elite Massage Therapy has been offering stress relieving massage
           therapy to the Chicagoland, IL
           area
           since 2001. We specialize in a variety of therapeutic and non- therapeutic massage techniques to relieve pain
@@ -51,7 +51,7 @@
           of
           our masseuses are fully licensed and certified to serve you better.<br>
           Learn More About Alice&grave;s Elite Massage Therapy:</p>
-        <div class="services__text-link-wrap"><a href="#" class="services__text-link">LATE NIGHT CALLS ARE OK</a></div>
+        <div class="services__text-link-wrap" ><a href="#" class="services__text-link">LATE NIGHT CALLS ARE OK</a></div>
       </div>
       <div class="services__list">
         <p class="services__list-name">SERVICES</p>
@@ -77,7 +77,7 @@
               <img src="./images/services__list-gallery-item-3.webp" alt="gallery image"
                 class="services__list-gallery-image">
               <a href="./pages/hotelMassage.html" class="services__list-gallery-link">HOTEL MASSAGE</a>
-              <p class="services__list-gallery-text">an upscale service, great for business travelers</p>
+              <p class="services__list-gallery-text" id="galleryId">an upscale service, great for business travelers</p>
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@
         </div>
       </div>
     </section>
-    <section class="contacts">
+    <section class="contacts" id="contactsId">
       <h2 class="contacts__name">Contact Us</h2>
       <p class="contacts__adress">Business Hours: Call For Appointment Anytime</p>
       <p class="contacts__phone">TELEPHONE &vert; <a class="contacts__phone-number" href="tel:847-567-0189">847-567-0189</a>
@@ -138,6 +138,7 @@
     </p>
   </footer>
   <script src="./vendor/js/index.js"></script>
+  
 </body>
 
 </html>
