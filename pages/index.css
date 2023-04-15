@@ -69,3 +69,13 @@
 @import url(../blocks/massageServices/__link/massageServices__link.css);
 
 @import url(../blocks/massageServices/__text-corpMotivPage/massageServices__text-corpMotivPage.css);
+
+@import url(../blocks/popupSlider/popupSlider.css);
+@import url(../blocks/popupSlider/__line/popupSlider__line.css);
+@import url(../blocks/popupSlider/__line-item/popupSlider__line-item.css);
+@import url(../blocks/popupSlider/__button-left/popupSlider__button-left.css);
+@import url(../blocks/popupSlider/__button-right/popupSlider__button-right.css);
+
+@import url(../blocks/popupSlider-wrap/popupSlider-wrap.css);
+@import url(../blocks/popupSlider-wrap/_disabled/popupSlider-wrap_disabled.css);
+@import url(../blocks/popupSlider-wrap/__cross/popupSlider-wrap__cross.css);

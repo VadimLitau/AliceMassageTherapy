@@ -1,0 +1,5 @@
+.popupSlider__line{
+  display: flex;
+  flex-direction: row;
+  transition: all ease 1s;
+}

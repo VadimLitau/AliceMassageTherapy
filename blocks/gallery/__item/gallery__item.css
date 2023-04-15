@@ -2,3 +2,8 @@
   width: 446px;
   padding-bottom: 0.5rem;
 }
+
+.gallery__item:hover{
+  background-color: #fff;
+  opacity: 0.4;
+}

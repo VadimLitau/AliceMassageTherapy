@@ -1,0 +1,16 @@
+.popupSlider-wrap{
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  
+
+  visibility: visible;
+    opacity: 1;
+    transition: visibility 0.2s, opacity 0.2s linear;
+}
