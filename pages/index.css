@@ -1,7 +1,8 @@
 @import url(../vendor/css/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-
 @import url(../blocks/root/root.css);
+
+/* header */
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -11,12 +12,16 @@
 @import url(../blocks/header/__nav-list/header__nav-list.css);
 @import url(../blocks/header/__nav-listItem/header__nav-listItem.css);
 @import url(../blocks/header/__nav-listLink/header__nav-listLink.css);
-
 @import url(../blocks/header/__nav-listDropped/header__nav-listDropped.css);
 @import url(../blocks/header/__nav-itemDropped/header__nav-itemDropped.css);
 
+/* main */
+
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/main__image/main__image.css);
+@import url(../blocks/main/__image-massageServices/main__image-massageServices.css);
+
+/* services */
 
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__text/services__text.css);
@@ -26,7 +31,6 @@
 @import url(../blocks/services/__text-second/services__text-second.css);
 @import url(../blocks/services/__text-third/services__text-third.css);
 @import url(../blocks/services/__text-link-wrap/services__text-link-wrap.css);
-
 @import url(../blocks/services/__list/services__list.css);
 @import url(../blocks/services/__list-name/services__list-name.css);
 @import url(../blocks/services/__list-gallery-item/services__list-gallery-item.css);
@@ -35,17 +39,23 @@
 @import url(../blocks/services/__list-gallery-text/services__list-gallery-text.css);
 @import url(../blocks/services/__list-gallery-wrap/services__list-gallery-wrap.css);
 
+/* gallery */
+
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__wrap/gallery__wrap.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
 @import url(../blocks/gallery/__wrap-left/gallery__wrap-left.css);
 @import url(../blocks/gallery/__wrap-rigth/gallery__wrap-rigth.css);
 
+/* contacts */
+
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/contacts/__name/contacts__name.css);
 @import url(../blocks/contacts/__adress/contacts__adress.css);
 @import url(../blocks/contacts/__phone/contacts__phone.css);
 @import url(../blocks/contacts/__phone-number/contacts__phone-number.css);
+
+/* footer */
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__info-wrap/footer__info-wrap.css);
@@ -55,7 +65,7 @@
 @import url(../blocks/footer/__searches-related/footer__searches-related.css);
 @import url(../blocks/footer/__searches-words/footer__searches-words.css);
 
-@import url(../blocks/main/__image-massageServices/main__image-massageServices.css);
+/* massageServices */
 
 @import url(../blocks/massageServices/massageServices.css);
 @import url(../blocks/massageServices/__wrap/massageServices__wrap.css);
@@ -67,15 +77,34 @@
 @import url(../blocks/massageServices/__info-link/massageServices__info-link.css);
 @import url(../blocks/massageServices/__linkWrap/massageServices__linkWrap.css);
 @import url(../blocks/massageServices/__link/massageServices__link.css);
-
 @import url(../blocks/massageServices/__text-corpMotivPage/massageServices__text-corpMotivPage.css);
+
+/* popupSlider */
 
 @import url(../blocks/popupSlider/popupSlider.css);
 @import url(../blocks/popupSlider/__line/popupSlider__line.css);
 @import url(../blocks/popupSlider/__line-item/popupSlider__line-item.css);
 @import url(../blocks/popupSlider/__button-left/popupSlider__button-left.css);
 @import url(../blocks/popupSlider/__button-right/popupSlider__button-right.css);
-
 @import url(../blocks/popupSlider-wrap/popupSlider-wrap.css);
 @import url(../blocks/popupSlider-wrap/_disabled/popupSlider-wrap_disabled.css);
 @import url(../blocks/popupSlider-wrap/__cross/popupSlider-wrap__cross.css);
+
+/* mobile */
+
+@import url(../blocks/mobileWordWrap/mobileWordWrap.css);
+@import url(../blocks/header/__mobile-phone-number/header__mobile-phone-number.css);
+@import url(../blocks/header/__mobile-nav-button/header__mobile-nav-button.css);
+
+/* popup-mobile-nav */
+
+@import url(../blocks/popup-mobile-nav/popup-mobile-nav.css);
+@import url(../blocks/popup-mobile-nav/_show/popup-mobile-nav_show.css);
+@import url(../blocks/popup-mobile-nav/__wrap/popup-mobile-nav__wrap.css);
+@import url(../blocks/popup-mobile-nav/__closeIcon/popup-mobile-nav__closeIcon.css);
+@import url(../blocks/popup-mobile-nav/__list/popup-mobile-nav__list.css);
+@import url(../blocks/popup-mobile-nav/__listLink/popup-mobile-nav__listLink.css);
+@import url(../blocks/popup-mobile-nav/__list-listItem/popup-mobile-nav__list-listItem.css);
+@import url(../blocks/popup-mobile-nav/__listDropped/popup-mobile-nav__listDropped.css);
+@import url(../blocks/popup-mobile-nav/__listDropped/_heightEdit/popup-mobile-nav__listLinkDropped_heightEdit.css);
+@import url(../blocks/popup-mobile-nav/__listDropped/_show/popup-mobile-nav__listDropped_show.css);

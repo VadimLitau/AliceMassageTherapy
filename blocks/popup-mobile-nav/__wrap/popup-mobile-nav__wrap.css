@@ -1,0 +1,5 @@
+.popup-mobile-nav__wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

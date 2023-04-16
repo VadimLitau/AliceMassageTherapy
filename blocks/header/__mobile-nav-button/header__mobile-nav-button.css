@@ -1,0 +1,9 @@
+.header__mobile-nav-button {
+    display: none;
+}
+
+@media(max-width:420px) {
+    .header__mobile-nav-button {
+        display: flex;
+    }
+}

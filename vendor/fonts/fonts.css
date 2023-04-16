@@ -12,10 +12,15 @@
 
 @font-face {
   font-family: 'garamond';
-  src: url(./garamond.woff2);
+  src: url(./garamond.woff2) format('woff2');
 }
 
 @font-face {
   font-family: 'playfair';
-  src: url(./playfair.woff2);
+  src: url(./playfair.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'dinNext';
+  src: url(./din_next.woff);
 }

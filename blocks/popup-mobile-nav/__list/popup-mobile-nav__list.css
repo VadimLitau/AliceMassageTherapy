@@ -1,0 +1,9 @@
+.popup-mobile-nav__list{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  line-height: 60px;
+  font-family: 'dinNext';
+  align-items: center;
+}
+

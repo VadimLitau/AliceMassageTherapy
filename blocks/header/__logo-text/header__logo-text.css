@@ -1,7 +1,15 @@
-.header__logo-text{
-  text-decoration: none;
-  color: #303030;
-  font-size: 1.25em;
-  padding-right: 20rem;
+.header__logo-text {
+    text-decoration: none;
+    color: #303030;
+    font-size: 1.25em;
+    padding-right: 20rem;
 }
 
+@media (max-width: 420px) {
+    .header__logo-text {
+        font-size: 1.2rem;
+        padding-right: 0rem;
+        line-height: 30px;
+        letter-spacing: 0.8px;
+    }
+}

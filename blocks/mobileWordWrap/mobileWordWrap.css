@@ -1,0 +1,9 @@
+.mobileWordWrap {
+    display: none;
+}
+
+@media(max-width:420px) {
+    .mobileWordWrap {
+        display: block;
+    }
+}

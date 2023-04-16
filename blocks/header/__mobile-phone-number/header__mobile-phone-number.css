@@ -1,0 +1,14 @@
+.header__mobile-phone-number {
+    display: none;
+}
+
+@media(max-width:420px) {
+    .header__mobile-phone-number {
+        display: block;
+        font-size: 1.25rem;
+        font-weight: bold;
+        text-decoration: underline;
+        letter-spacing: 1px;
+        padding-top: 20px;
+    }
+}
