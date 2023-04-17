@@ -5,3 +5,9 @@
   color: #333c4b;
   padding-bottom: 1rem;
 }
+
+@media (max-width: 420px){
+  .footer__searches-words{
+    width: 80vw;
+  }
+}

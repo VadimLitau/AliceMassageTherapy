@@ -4,3 +4,9 @@
   align-items: center;
   margin-bottom: 9.6rem; 
 }
+
+@media (max-width: 420px){
+  .contacts{
+    order:10;
+  }
+}

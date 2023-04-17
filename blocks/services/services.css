@@ -1,5 +1,4 @@
 .services{
-  display: block;
   margin-top: -7.7rem;
   padding-bottom: 4.3rem;
   width: 100%;
@@ -8,3 +7,8 @@
   background: linear-gradient(180deg, rgba(142,102,145,1) 0%, rgba(125,84,128,1) 35%, rgba(80,38,84,1) 100%);
 }
 
+@media (max-width: 420px){
+  .services{
+    order:9;
+  }
+}

@@ -2,3 +2,10 @@
   padding-left:0.7rem;
   padding-right: 0.6rem;
 }
+
+@media (max-width: 420px){
+  .gallery__wrap-left{
+    display: flex;
+    flex-direction: column;
+  }
+}

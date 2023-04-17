@@ -1,3 +1,13 @@
 .main__image{
   z-index: 0;
 }
+
+@media (max-width: 420px){
+  .main__image{
+    order:8;
+  }
+
+  .main__image img{
+    width: 100vw;
+  }
+}

@@ -6,3 +6,9 @@
   margin-top: 150px;
   width: 1000px;
 }
+
+@media (max-width:420px){
+  .services__text{
+    width: 270px;
+  }
+}

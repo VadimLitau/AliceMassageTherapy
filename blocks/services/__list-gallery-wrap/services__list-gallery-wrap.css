@@ -3,3 +3,9 @@
   flex-direction: row;
   margin-top: 33px;
 }
+
+@media (max-width:420px){
+  .services__list-gallery-wrap{
+    flex-direction: column;
+  }
+}

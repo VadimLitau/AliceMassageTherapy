@@ -1,1 +1,6 @@
-.gallery__wrap-rigth{}
+@media (max-width: 420px){
+  .gallery__wrap-rigth{
+    display: flex;
+    flex-direction: column;
+  }
+}
