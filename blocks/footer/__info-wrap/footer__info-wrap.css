@@ -6,3 +6,10 @@
   font-size: 0.88rem;
   padding-top: 1.4rem;
 }
+
+@media (max-width:420px){
+  .footer__info-wrap{
+    flex-direction: column;
+    align-items: center;
+  }
+}

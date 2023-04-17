@@ -5,3 +5,10 @@
   font-weight: 100;
   font-size: 3.7rem;
 }
+
+@media (max-width:420px){
+  .contacts__name{
+    font-size: 2.7rem;
+    color: #d8b6b6;
+  }
+}

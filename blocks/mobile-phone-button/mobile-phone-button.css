@@ -1,0 +1,10 @@
+.mobile-phone-button{
+  position: fixed;
+  bottom: 0;
+  height: 65px;
+  width: 100vw;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+}

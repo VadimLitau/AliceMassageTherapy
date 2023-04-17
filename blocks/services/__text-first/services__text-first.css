@@ -3,3 +3,9 @@
   padding-bottom: 35px;
   font-size: 1.3rem;
 }
+
+@media (max-width:420px){
+  .services__text-first{
+    font-size: 1.1rem;
+  }
+}

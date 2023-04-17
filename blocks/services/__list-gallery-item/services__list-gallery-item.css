@@ -7,3 +7,10 @@
   background-color: #fff;
   margin-right: 14px;
 }
+
+@media (max-width:420px){
+  .services__list-gallery-item{
+    margin-right: 0;
+    margin-bottom: 14px;
+  }
+}

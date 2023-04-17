@@ -7,5 +7,6 @@
 @media (max-width:420px){
   .services__list-gallery-wrap{
     flex-direction: column;
+    margin-top: 15px;
   }
 }

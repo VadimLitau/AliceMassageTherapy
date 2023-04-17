@@ -9,6 +9,7 @@
 
 @media (max-width: 420px){
   .services{
+    margin-top: 3.3rem;
     order:9;
   }
 }

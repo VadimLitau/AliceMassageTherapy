@@ -2,3 +2,10 @@
   font-size: 0.562rem;
   color: #333c4b;
 }
+
+@media (max-width:420px){
+  .footer__searches-related{
+    font-size: 1rem;
+    padding: 20px 0;
+  }
+}

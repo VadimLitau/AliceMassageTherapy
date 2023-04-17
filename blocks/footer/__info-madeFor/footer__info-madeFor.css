@@ -1,3 +1,11 @@
 .footer__info-madeFor{
   letter-spacing: 0.75px;
 }
+
+@media (max-width:420px){
+  .footer__info-madeFor{
+    font-size: 1.1rem;
+    width: 50vw;
+    text-align: center;
+  }
+}

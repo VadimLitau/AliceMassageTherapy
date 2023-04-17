@@ -9,3 +9,9 @@
   margin-top: 80px;
   background: #000;
 }
+
+@media (max-width:420px){
+  .services__text-link-wrap{
+    display: none;
+  }
+}
