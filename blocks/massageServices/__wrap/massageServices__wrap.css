@@ -9,3 +9,11 @@
   background: rgb(142,102,145);
   background: linear-gradient(180deg, rgba(142,102,145,1) 0%, rgba(125,84,128,1) 0%, rgba(80,38,84,1) 100%);
 }
+
+@media (max-width:420px){
+  .massageServices__wrap{
+    margin-top: -5px;
+    padding-top: 0;    
+    z-index: 1;
+  }
+}

@@ -4,3 +4,11 @@
   font-size: 3.65rem;
   padding-bottom: 20px;
 }
+
+@media (max-width:420px){
+  .massageServices__name{
+    font-size: 2.5rem;
+    padding-bottom:20px;
+    margin-top: -30px;
+  }
+}

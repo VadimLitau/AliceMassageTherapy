@@ -110,3 +110,5 @@
 @import url(../blocks/popup-mobile-nav/__listDropped/_show/popup-mobile-nav__listDropped_show.css);
 
 @import url(../blocks/mobile-phone-button/mobile-phone-button.css);
+
+@import url(../blocks/header/__mobile-nav-button/_fixed/header__mobile-nav-button_fixed.css);

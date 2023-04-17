@@ -1,3 +1,6 @@
+.mobile-phone-button{
+  display: none;
+}
 @media (max-width:420px){
   .mobile-phone-button{
     position: fixed;

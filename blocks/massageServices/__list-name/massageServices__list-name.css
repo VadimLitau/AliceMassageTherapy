@@ -4,3 +4,9 @@
   font-weight: bold;
   padding-bottom: 23px;
 }
+
+@media (max-width:420px){
+  .massageServices__list-name{
+    font-size: 1.8rem;
+  }
+}

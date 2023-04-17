@@ -1,0 +1,5 @@
+@media(max-width:420px) {
+  .header__mobile-nav-button_fixed {
+      margin-top: -20px;
+  }
+}

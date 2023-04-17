@@ -16,35 +16,44 @@
   <header class="header">
     <div class="header__logo">
       <!-- Здесь заместо ссылки на поисковик яндекса, нужно будет вставитьс ссылку на ваш сайт. Эта ссылка стоит для примера -->
-      <a href="https://ya.ru" target="_blank" class="header__logo-text"><span
-          class="header__logo-purpleText">ALICE'S&nbsp;</span>ELITE MASSAGE THERAPY</a>
+      <a href="https://ya.ru" target="_blank" class="header__logo-text">
+        <span class="header__logo-purpleText">ALICE'S&nbsp;<br class="mobileWordWrap"></span> ELITE MASSAGE THERAPY
+      </a>
     </div>
+    <img src="../images/mobileHeaderButton.PNG" alt="mobileButton"
+      class="header__mobile-nav-button header__mobile-nav-button_fixed">
     <nav class="header__nav">
       <ul class="header__nav-list">
-        <li class="header__nav-listItem"><a href="../index.html#" class="header__nav-listLink transition">Home</a></li>
+        <li class="header__nav-listItem"><a href="../index.html#" class="header__nav-listLink">Home</a></li>
         <li class="header__nav-listItem"><a href="../index.html#aboudId" class="header__nav-listLink">About</a></li>
         <li class="header__nav-listItem"><a href="../index.html#servicesId" class="header__nav-listLink">Services</a>
           <ul class="header__nav-list header__nav-listDropped">
-            <li class="header__nav-listItem header__nav-itemDropped"><a href="./massageServices.html" class="header__nav-listLink transition">Massage Services</a></li>
-            <li class="header__nav-listItem header__nav-itemDropped"><a href="./hotelMassage.html" class="header__nav-listLink transition">Hotel Massage</a></li>
-            <li class="header__nav-listItem header__nav-itemDropped"><a href="./corporativeMotivationMassage.html" class="header__nav-listLink transition">Corporate Motivation Massage</a></li>
+            <li class="header__nav-listItem header__nav-itemDropped"><a href="./massageServices.html"
+                class="header__nav-listLink transition">Massage Services</a></li>
+            <li class="header__nav-listItem header__nav-itemDropped"><a href="./hotelMassage.html"
+                class="header__nav-listLink transition">Hotel Massage</a></li>
+            <li class="header__nav-listItem header__nav-itemDropped"><a href="./corporativeMotivationMassage.html"
+                class="header__nav-listLink transition">Corporate Motivation Massage</a></li>
           </ul>
-        </li>        
-        <li class="header__nav-listItem"><a href="../index.html#galleryId" class="header__nav-listLink">Portfolio</a></li>
-        <li class="header__nav-listItem"><a href="../index.html#contactsId" class="header__nav-listLink">Contact</a></li>
+        </li>
+        <li class="header__nav-listItem"><a href="../index.html#galleryId" class="header__nav-listLink">Portfolio</a>
+        </li>
+        <li class="header__nav-listItem"><a href="../index.html#contactsId" class="header__nav-listLink">Contact</a>
+        </li>
       </ul>
     </nav>
   </header>
   <main class="main">
-    <section class="main__image main__image-massageServices"><img src="../images/massageServices_mainImage.webp"
-        alt="main_image"></section>
+    <section class="main__image main__image-massageServices" style="z-index: 0;"><img src="../images/massageServices_mainImage.webp"
+        alt="main_image" ></section>
     <div class="massageServices__wrap">
       <div class="massageServices">
         <h1 class="massageServices__name">Our Therapeutic Massage</h1>
         <p class="massageServices__text">Alice&grave;s Elite Massage Therapy of Chicagoland, IL offers deeply relaxing
           massages that will re-energize you. Your total relaxation is our goal, and customer service is our specialty.
           Let our trained professionals relieve your stress and tension</p>
-        <p class="massageServices__text">Since 2001, we have offered a wide variety of massage services. We service all of the Chicagoland area, including the northwest suburbs, downtown Chicago, Midway, and O&grave;Hare.</p>
+        <p class="massageServices__text">Since 2001, we have offered a wide variety of massage services. We service all
+          of the Chicagoland area, including the northwest suburbs, downtown Chicago, Midway, and O&grave;Hare.</p>
         <p class="massageServices__list-name">Our Massage Services Include:</p>
         <ul class="massageServices__list">
           <li class="massageServices__list-item">Swedish massage</li>
@@ -56,14 +65,69 @@
           <li class="massageServices__list-item">Full body massage</li>
         </ul>
         <p class="massageServices__info">All of our masseuses are fully licensed and certified to serve you better.<br>
-        <a href="http://web.archive.org/web/20150220002727/http://massagesdowntownchicago.com/contact-alices-elite-massage-therapy-chicagoland-il.htm" class="massageServices__info-link">Contact Alice&grave;s Elite Massage Therapy</a> today at 847-567-0189, or browse the website for more information
-          about <a class="massageServices__info-link" href="http://web.archive.org/web/20150220002727/http://massagesdowntownchicago.com/chicagoland-il-corporate-motivation-massage.htm">corporate motivation massage</a> or <a class="massageServices__info-link" href="http://web.archive.org/web/20150220002727/http://massagesdowntownchicago.com/chicagoland-il-hotel-massage.htm">hotel massage</a>.</p>
+          <a href="http://web.archive.org/web/20150220002727/http://massagesdowntownchicago.com/contact-alices-elite-massage-therapy-chicagoland-il.htm"
+            class="massageServices__info-link">Contact Alice&grave;s Elite Massage Therapy</a> today at 847-567-0189, or
+          browse the website for more information
+          about <a class="massageServices__info-link"
+            href="http://web.archive.org/web/20150220002727/http://massagesdowntownchicago.com/chicagoland-il-corporate-motivation-massage.htm">corporate
+            motivation massage</a> or <a class="massageServices__info-link"
+            href="http://web.archive.org/web/20150220002727/http://massagesdowntownchicago.com/chicagoland-il-hotel-massage.htm">hotel
+            massage</a>.
+        </p>
         <div class="massageServices__linkWrap">
           <a href="tel:847-567-0189" class="massageServices__link">LATE NIGHT CALLS ARE OK</a>
         </div>
       </div>
     </div>
   </main>
+  <section class="popup-mobile-nav popup-mobile-nav_show">
+    <nav class="popup-mobile-nav__wrap">
+      <svg width="44px" height="44px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+        class="popup-mobile-nav__closeIcon">
+        <path d="M16 8L8 16M8.00001 8L16 16" stroke="#fff" stroke-width="1.5" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+      <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" fill="#fff" />
+      <ul class="popup-mobile-nav__list">
+        <li class="popup-mobile-nav__list-listItem"><a href="../index.html#"
+            class="popup-mobile-nav__listLink closePopup">Home</a></li>
+        <li class="popup-mobile-nav__list-listItem"><a href="../index.html#aboudId"
+            class="popup-mobile-nav__listLink  closePopup">About</a></li>
+        <li class="popup-mobile-nav__list-listItem"><a href="#" class="popup-mobile-nav__listLink"
+            id="#mobileMenuServices">+ Services</a>
+          <ul class="popup-mobile-nav__list popup-mobile-nav__listDropped">
+            <li class="popup-mobile-nav__list-listItem popup-mobile-nav__list-listItemDropped">
+              <a href="./massageServices.html" class="popup-mobile-nav__listLinkDropped transition">Massage Services</a>
+            </li>
+            <li class="popup-mobile-nav__list-listItem popup-mobile-nav__list-listItemDropped">
+              <a href="./hotelMassage.html" class="popup-mobile-nav__listLinkDropped transition">Hotel Massage</a>
+            </li>
+            <li class="popup-mobile-nav__list-listItem popup-mobile-nav__list-listItemDropped">
+              <a href="./corporativeMotivationMassage.html"
+                class="popup-mobile-nav__listLinkDropped transition">Corporate Motivation<br> <span
+                  class="popup-mobile-nav__listLinkDropped_heightEdit">Massage</span></a>
+            </li>
+          </ul>
+        </li>
+        <li class="popup-mobile-nav__list-listItem"><a href="../index.html#galleryId"
+            class="popup-mobile-nav__listLink closePopup">Portfolio</a></li>
+        <li class="popup-mobile-nav__list-listItem"><a href="../index.html#contactsId"
+            class="popup-mobile-nav__listLink closePopup">Contact</a></li>
+      </ul>
+    </nav>
+  </section>
+  <section class="mobile-phone-button">
+    <a href="tel:847-567-0189">
+      <svg fill="#63c956" data-bbox="17.052 7.009 15.938 16.944" width="22" height="22"
+        viewBox="17.052 7.009 15.938 16.944" xmlns="http://www.w3.org/2000/svg">
+        <g>
+          <path stroke="#63c956"
+            d="M21.886 7.46c-.265-.483-.827-.599-1.271-.247l-1.74 1.38c-2.164 1.718-2.44 4.79-.618 6.86l5.96 6.772c1.822 2.07 5.011 2.316 7.13.542l1.313-1.1c.428-.357.444-.946.028-1.322l-2.904-2.63c-.412-.373-1.105-.404-1.54-.076l-1.714 1.296-4.843-5.353 1.743-1.259c.446-.321.595-.97.327-1.457l-1.87-3.406z">
+          </path>
+        </g>
+      </svg>
+    </a>
+  </section>
   <footer class="footer">
     <div class="footer__info-wrap">
       <p class="footer__info-phone">CALL US: <a href="tel:847-567-0189" class="footer__info-number">847-567-0189</a></p>
@@ -96,6 +160,7 @@
       massage, division ukrainian massage, belmont polish massage, belmont russian massage, belmont ukrainian massage
     </p>
   </footer>
+  <script src="../vendor/js/mobileNav.js"></script>
 </body>
 
 </html>
